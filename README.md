@@ -25,7 +25,7 @@ Watch this video for details on what to include in the task.
 * [Provider Creation | Video](https://www.youtube.com/watch?v=5xU5WH2kEc0&ab_channel=MitchKoko)
 
 ## Important Concepts
- #Setting up the Firebase
+Setting up the Firebase
  
 ## Setting Up Firebase for Flutter Project
 
