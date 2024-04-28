@@ -93,4 +93,4 @@ Setting up the Firebase
 ### Additional Resources (Documents)
 [Firebase Documentation](https://firebase.google.com/docs)
 
-Following these steps should help you set up Firebase for your Flutter project, even if you're a beginner. Feel free to ask if you have any questions or encounter any issues along the way!
+Following these steps should help you set up Firebase for your Flutter project, even if you're a beginner. Feel free to ask if you have any questions or encounter any issues along the way! Goodluck.
