@@ -26,7 +26,7 @@ Watch this video for details on what to include in the task.
 
 ## Important Concepts
 
-### Setting up the Firebase
+## Setting up the Firebase
  # Setting Up Firebase for Flutter Project
 
 ## Step 1: Create a Firebase Project
@@ -91,8 +91,6 @@ Watch this video for details on what to include in the task.
 3. You can then proceed to use Firebase Authentication, Firestore, or other Firebase services in your app.
    
 ### Additional Resources (Documents)
-Firebase Documentation
-FlutterFire Documentation
-Firebase for Flutter Codelab
+[Firebase Documentation](https://firebase.google.com/docs)
 
 Following these steps should help you set up Firebase for your Flutter project, even if you're a beginner. Feel free to ask if you have any questions or encounter any issues along the way!
