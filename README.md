@@ -27,7 +27,7 @@ Watch this video for details on what to include in the task.
 ## Important Concepts
 Setting up the Firebase
  
-## Setting Up Firebase for Flutter Project
+# Setting Up Firebase for Flutter Project
 
 ## Step 1: Create a Firebase Project
 
