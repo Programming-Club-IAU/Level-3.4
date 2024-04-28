@@ -20,10 +20,8 @@ This project is a minimal chat application built using Flutter and Firebase. The
 Watch this video for details on what to include in the task.
 * [Features Video](https://www.youtube.com/watch?v=Ci0NTh6Jh3U&ab_channel=MitchKoko)
 
-## Resources
+ ## Video
 
-* [Provider Package](https://pub.dev/packages/provider)
-* [Simple State Management | Flutter](https://docs.flutter.dev/data-and-backend/state-mgmt/simple)
 * [Provider Creation | Video](https://www.youtube.com/watch?v=5xU5WH2kEc0&ab_channel=MitchKoko)
 
 ## Important Concepts
@@ -92,7 +90,7 @@ Watch this video for details on what to include in the task.
 2. Verify that your app launches without errors and that Firebase is initialized successfully.
 3. You can then proceed to use Firebase Authentication, Firestore, or other Firebase services in your app.
    
-### Additional Resources
+### Additional Resources (Documents)
 Firebase Documentation
 FlutterFire Documentation
 Firebase for Flutter Codelab
