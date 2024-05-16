@@ -1,8 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_chat_app/components/custom_text_field.dart';
 import 'package:flutter_chat_app/components/my_button.dart';
+import 'package:flutter_chat_app/services/auth/auth_service.dart';
+import 'package:provider/provider.dart';
 
 class LoginPage extends StatefulWidget {
   final void Function()? onTap;
@@ -17,11 +17,27 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   // text editing controllers
-  final usernameController = TextEditingController();
+  final emailController = TextEditingController();
   final passwordController = TextEditingController();
 
   // login function
-  void login() {}
+  void login() {
+    // auth service login function
+    final authService = Provider.of<AuthService>(context, listen: false);
+
+    try {
+      authService.loginWithEmailAndPassword(
+        emailController.text,
+        passwordController.text,
+      );
+    } catch (e) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(e.toString()),
+        ),
+      );
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -49,10 +65,10 @@ class _LoginPageState extends State<LoginPage> {
                       fontWeight: FontWeight.bold,
                     )),
                 const SizedBox(height: 25),
-                // username textfield
+                // Email textfield
                 CustomTextField(
-                  controller: usernameController,
-                  hintText: 'Username',
+                  controller: emailController,
+                  hintText: 'Email',
                   obscureText: false,
                 ),
                 const SizedBox(height: 15),
