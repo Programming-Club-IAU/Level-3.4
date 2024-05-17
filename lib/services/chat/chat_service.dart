@@ -16,10 +16,10 @@ class ChatService extends ChangeNotifier {
 
     Message messageData = Message(
       senderId: currentUserId,
-      message: message,
       senderEmail: currentUserEmail,
+      message: message,
       receiverId: receiverUserId,
-      timestamp: timestamp.toString(),
+      timestamp: timestamp,
     );
 
     List<String> users = [currentUserId, receiverUserId];
